@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/main-display.css">
+  <link rel="stylesheet" href="./styles/trips.css">
+  <link rel="stylesheet" href="./styles/about-us.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/reviews.css">
+
+  <title>Night Trips</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper wrapper ">
+      <div class="logo">
+        <h2 class="logo__text">NT<span class="logo__text-dot">.</span></h2>
+      </div>
+      <form class="form-search">
+        <input class="form-search__field" type="search">
+        <button class="form-search__btn">
+          <span class="ring"></span>
+          <span class="stick"></span>
+        </button>
+      </form>
+      <nav class="menu">
+        <button class="menu__button">
+          <span class="menu__button-text">Menu</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main class="main-display">
+    <div class="main-display__wrapper wrapper">
+      <div class="scroll-item">
+        <div class="scroll-item__line"></div>
+        <span class="scroll-item__title">Scroll</span>
+      </div>
+      <div class="main-display__info">
+        <h1 class="main-display__info-title">Night Trips</h1>
+        <h3 class="main-display__info-subtitle">We got trips for the trippster in you</h3>
+        <p class="main-display__info-desctiption">Neque, eros commodo, nascetur ullamcorper vitae. Tincidunt ut venenatis, volutpat lorem ut faucibus mauris, quisque. Integer gravida sed quis congue. Vel risus, arcu a viverra leo id pulvinar ultricies. Enim in in in pulvinar nulla sollicitudin. Ullamcorper.</p>
+      </div>
+      <div class="social-media">
+        <a href="#" class="social-media__link">
+          <img src="./assets/img/twitter-icon.svg" alt="twitter" class="social-kedia__img">
+        </a>
+        <a href="#" class="social-media__link">
+          <img src="./assets/img/instagram-icon.svg" alt="instagrem" class="social-kedia__img">
+        </a>
+        <a href="#" class="social-media__link">
+          <img src="./assets/img/facebook-icon.svg" alt="facebook" class="social-kedia__img">
+        </a>
+      </div>
+    </div>
+  </main>
+  <div class="background-block">
+    <section class="trips">
+      <div class="trips__wrapper wrapper">
+        <div class="trips-info">
+          <h2 class="trips-info__title">Pick your trip</h2>
+          <span class="trips-info__message">Our team put together some trips to you to discover, feel free to discover each of them.</span>
+        </div>
+        <div class="trips-pick">
+          <nav class="trips-pick__menu">
+            <ul class="trips-pick__menu-items">
+              <li id="chill-adventure" class="trips-pick__menu-item active">Chill Adventure</li>
+              <li id="spooky-time" class="trips-pick__menu-item">Spooky Times</li>
+              <li id="desert-madness" class="trips-pick__menu-item">Desert Madness</li>
+              <li id="out-in-the-wild" class="trips-pick__menu-item">Out in the wildh</li>
+            </ul>
+          </nav>
+          <div class="trips-pick__item">
+            <div class="trips-pick__item-content chill-adventure active">
+              <div class="trip-pick-name">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+                <span class="trip-pick-name__number">01.</span>
+                <h3 class="trip-pick-name__text">Grand dunes landscape</h3>
+              </div>
+              <div class="trips-pick__item-gallery">
+                <div class="trips-pick__item-gallery-stream active">
+                  <img src="./assets/img/chill-adventure-1.png" alt="" class="trips-pick__item-gallery-img active">
+                  <img src="./assets/img/chill-adventure-2.png" alt="" class="trips-pick__item-gallery-img active">
+                  <img src="./assets/img/chill-adventure-3.png" alt="" class="trips-pick__item-gallery-img active">
+                </div>
+                <button class="trips-pick__item-gallery-prev active">
+                  <img src="./assets/img/prev-arrow.svg" alt="" class="trips-pick__item-gallery-prev-img-arrow">
+                </button>
+                <button class="trips-pick__item-gallery-next active">
+                  <img src="./assets/img/next-arrow.svg" alt="" class="trips-pick__item-gallery-next-img-arrow">
+                </button>
+              </div>
+              <div class="trips-pick__item-info">
+                <h3 class="trips-pick__item-info-title">Chill Adventure</h3>
+                <p class="trips-pick__item-info-decsription">Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</p>
+                <p class="trips-pick__item-info-text">
+                Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.</p>
+                <button class="trips-pick__item-info-btn">See our latest offer</button>
+                </button>
+              </div>
+            </div>
+            <div class="trips-pick__item-content spooky-time">
+              <div class="trip-pick-name">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+                <span class="trip-pick-name__number">02.</span>
+                <h3 class="trip-pick-name__text">Spooky time</h3>
+              </div>
+              <div class="trips-pick__item-gallery">
+                <div class="trips-pick__item-gallery-stream">
+                  <img src="./assets/img/spooky-time-1.png" alt="" class="trips-pick__item-gallery-img">
+                  <img src="./assets/img/spooky-time-2.png" alt="" class="trips-pick__item-gallery-img">
+                  <img src="./assets/img/spooky-time-3.png" alt="" class="trips-pick__item-gallery-img">
+                </div>
+                <button class="trips-pick__item-gallery-prev">
+                  <img src="./assets/img/prev-arrow.svg" alt="" class="trips-pick__item-gallery-prev-img-arrow">
+                </button>
+                <button class="trips-pick__item-gallery-next">
+                  <img src="./assets/img/next-arrow.svg" alt="" class="trips-pick__item-gallery-next-img-arrow">
+                </button>
+              </div>
+              <div class="trips-pick__item-info">
+                <h3 class="trips-pick__item-info-title">Spooky time</h3>
+                <p class="trips-pick__item-info-decsription">Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</p>
+                <p class="trips-pick__item-info-text">
+                Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.</p>
+                <button class="trips-pick__item-info-btn">See our latest offer</button>
+                </button>
+              </div>
+            </div>
+            <div class="trips-pick__item-content desert-madness">
+              <div class="trip-pick-name">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+                <span class="trip-pick-name__number">03.</span>
+                <h3 class="trip-pick-name__text">Desert Madness</h3>
+              </div>
+              <div class="trips-pick__item-gallery">
+                <div class="trips-pick__item-gallery-stream">
+                  <img src="./assets/img/desert-madness-1.png" alt="" class="trips-pick__item-gallery-img">
+                  <img src="./assets/img/desert-madness-2.png" alt="" class="trips-pick__item-gallery-img">
+                  <img src="./assets/img/desert-madness-3.png" alt="" class="trips-pick__item-gallery-img">
+                </div>
+                <button class="trips-pick__item-gallery-prev">
+                  <img src="./assets/img/prev-arrow.svg" alt="" class="trips-pick__item-gallery-prev-img-arrow">
+                </button>
+                <button class="trips-pick__item-gallery-next">
+                  <img src="./assets/img/next-arrow.svg" alt="" class="trips-pick__item-gallery-next-img-arrow">
+                </button>
+              </div>
+              <div class="trips-pick__item-info">
+                <h3 class="trips-pick__item-info-title">Desert Madness</h3>
+                <p class="trips-pick__item-info-decsription">Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</p>
+                <p class="trips-pick__item-info-text">
+                Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.</p>
+                <button class="trips-pick__item-info-btn">See our latest offer</button>
+                </button>
+              </div>
+            </div>
+            <div class="trips-pick__item-content out-in-the-wild">
+              <div class="trip-pick-name">
+                <div class="horizontal-line"></div>
+                <div class="vertical-line"></div>
+                <span class="trip-pick-name__number">04.</span>
+                <h3 class="trip-pick-name__text">Out in the wild</h3>
+              </div>
+              <div class="trips-pick__item-gallery">
+                <div class="trips-pick__item-gallery-stream">
+                  <img src="./assets/img/out-in-the-wild-1.png" alt="" class="trips-pick__item-gallery-img">
+                  <img src="./assets/img/out-in-the-wild-2.png" alt="" class="trips-pick__item-gallery-img">
+                  <img src="./assets/img/out-in-the-wild-3.png" alt="" class="trips-pick__item-gallery-img">
+                </div>
+                <button class="trips-pick__item-gallery-prev">
+                  <img src="./assets/img/prev-arrow.svg" alt="" class="trips-pick__item-gallery-prev-img-arrow">
+                </button>
+                <button class="trips-pick__item-gallery-next">
+                  <img src="./assets/img/next-arrow.svg" alt="" class="trips-pick__item-gallery-next-img-arrow">
+                </button>
+              </div>
+              <div class="trips-pick__item-info">
+                <h3 class="trips-pick__item-info-title">Out in the wild</h3>
+                <p class="trips-pick__item-info-decsription">Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</p>
+                <p class="trips-pick__item-info-text">
+                Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.</p>
+                <button class="trips-pick__item-info-btn">See our latest offer</button>
+                </button>
+              </div>
+            </div>
+            <div class="horizontal-social-media">
+              <span class="horizontal-social-media__text">Share it:</span>
+              <div class="horizontal-social-media__icons">
+                <a href="#" class="horizontal-social-media__icons-link">
+                  <img src="./assets/img/instagram-icon.svg" alt="instagrem">
+                </a>
+                <a href="#" class="horizontal-social-media__icons-link">
+                  <img src="./assets/img/facebook-icon.svg" alt="facebook">
+                </a>
+                <a href="#" class="horizontal-social-media__icons-link">
+                  <img src="./assets/img/twitter-icon.svg" alt="twitter">
+                </a>
+              </div>
+              <div class="vertical-line vertical-line_smm"></div>
+              <div class="horizontal-line horizontal-line_smm"></div>       
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="about-us__wrapper wrapper">
+        <div class="about-us__content">
+          <div class="about-us__content-info">
+            <h3 class="about-us__content-info-title">About Us</h3>
+            <div class="about-us__content-info-desctiption">
+              We’re a team of four passioned people.
+            </div>
+            <p class="about-us__content-info-text">
+              We’re ready to take the world by storm and let you find new travel opportunities.
+              <br><br>
+              Our everyday task is to make sure that you satisfied with the services and products that we provide. 
+            </p>
+            <div class="about-us__content-info-text-geo">
+              With<span>&#128150</span>from Amsterdam, Netherlands.
+            </div>
+            <button class="about-us__content-info-btn">Read more about us</button>
+          </div>
+          <div class="about-us__content-fotos">
+            <div class="about-us__content-fotos-img-container active">
+              <img 
+                src="./assets/img/about-us-jack.png" 
+                alt="jack" 
+                class="about-us__content-fotos-img">
+              <span class="employee-name active">Martin Jack, 
+                <span class="employee-position">Ceo</span> 
+              </span>
+            </div>
+            <div class="about-us__content-fotos-img-container">
+              <img 
+                src="./assets/img/about-us-jack.png" 
+                alt="jack" 
+                class="about-us__content-fotos-img">
+              <span class="employee-name">Martin Jack, 
+                <span class="employee-position">Ceo</span> 
+              </span>
+            </div>
+            <div class="about-us__content-fotos-img-container">
+              <img 
+                src="./assets/img/about-us-jack.png" 
+                alt="jack" 
+                class="about-us__content-fotos-img">
+              <span class="employee-name">Martin Jack, 
+                <span class="employee-position">Ceo</span> 
+              </span>
+            </div>
+            <div class="about-us__content-fotos-img-container">
+              <img 
+                src="./assets/img/about-us-jack.png" 
+                alt="jack" 
+                class="about-us__content-fotos-img">
+              <span class="employee-name">Martin Jack, 
+                <span class="employee-position">Ceo</span> 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews__wrapper wrapper">
+        <div class="reviews__block">
+          <h3 class="reviews__title">People’s thoughts</h3>
+          <div class="reviews__description">See what are others saying</div>
+          <div class="reviews__items">
+            <div class="reviews__item">
+              <div class="reviews__item-header">Elementum mi felis, sit velit lobortis ultricies non. Mattis enim, nisl</div>
+              <p class="reviews__item-text">adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+              <div class="reviews__item-person">
+                <img src="./assets/img/reviews-person-foto.png" alt="" class="reviews__item-person-foto">
+                <div class="reviews__item-person-id">
+                  <div class="reviews__item-person-id-name">Judy ROSELESS</div>
+                  <div class="reviews__item-person-id-position">MARKETING HEAD at ROM.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__item-header">Elementum mi felis, sit velit lobortis ultricies non. Mattis enim, nisl</div>
+              <p class="reviews__item-text">adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+              <div class="reviews__item-person">
+                <img src="./assets/img/reviews-person-foto.png" alt="" class="reviews__item-person-foto">
+                <div class="reviews__item-person-id">
+                  <div class="reviews__item-person-id-name">Judy ROSELESS</div>
+                  <div class="reviews__item-person-id-position">MARKETING HEAD at ROM.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__item-header">Elementum mi felis, sit velit lobortis ultricies non. Mattis enim, nisl</div>
+              <p class="reviews__item-text">adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+              <div class="reviews__item-person">
+                <img src="./assets/img/reviews-person-foto.png" alt="" class="reviews__item-person-foto">
+                <div class="reviews__item-person-id">
+                  <div class="reviews__item-person-id-name">Judy ROSELESS</div>
+                  <div class="reviews__item-person-id-position">MARKETING HEAD at ROM.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__item-header">Elementum mi felis, sit velit lobortis ultricies non. Mattis enim, nisl</div>
+              <p class="reviews__item-text">adipiscing natoque diam et. Cum posuere in velit massa sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed imperdiet blandit morbi. Maecenas lobortis tristique rutrum.</p>
+              <div class="reviews__item-person">
+                <img src="./assets/img/reviews-person-foto.png" alt="" class="reviews__item-person-foto">
+                <div class="reviews__item-person-id">
+                  <div class="reviews__item-person-id-name">Judy ROSELESS</div>
+                  <div class="reviews__item-person-id-position">MARKETING HEAD at ROM.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="reviews__title reviews__title_block">See you soon!</h3>
+          <div class="reviews__description reviews__desctiption_block">We hope to meet each other very soon.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer__wrapper wrapper">
+      <div class="footer__items">
+        <div class="footer_item">
+          <div class="footer__item-titile">About</div>
+          <a href="#" class="footer__item-link">Our Misson</a>
+          <a href="#" class="footer__item-link">Teams</a>
+          <a href="#" class="footer__item-link">Copyrights</a>
+        </div>
+        <div class="footer_item">
+          <div class="footer__item-titile">FAQ</div>
+          <a href="#" class="footer__item-link">Rules</a>
+          <a href="#" class="footer__item-link">Tickets</a>
+          <a href="#" class="footer__item-link">Editions</a>
+          <a href="#" class="footer__item-link">Contribute</a>
+        </div>
+        <div class="footer_item">
+          <div class="footer__item-titile">Events</div>
+          <a href="#" class="footer__item-link">Star Gazing</a>
+          <a href="#" class="footer__item-link">Desert mania</a>
+          <a href="#" class="footer__item-link">Desert Madness</a>
+          <a href="#" class="footer__item-link">Spooky Land</a>
+        </div>
+        <div class="footer_item">
+          <div class="footer__item-titile">Contact us</div>
+          <a href="#" class="footer__item-link">hello@example.com</a>
+          <a href="#" class="footer__item-link">(405) 555-0128</a>
+          <a href="#" class="footer__item-link">(252) 555-0126</a>
+        </div>
+        <div class="footer_item footer_item_social-media">
+          <div class="footer__item-titile footer__item-titile_smm">Follow us</div>
+            <div class="horizontal-social-media__icons horizontal-social-media__icons-footer">
+              <a href="#" class="horizontal-social-media__icons-link">
+                <img src="./assets/img/instagram-icon.svg" alt="instagrem">
+              </a>
+              <a href="#" class="horizontal-social-media__icons-link">
+                <img src="./assets/img/facebook-icon.svg" alt="facebook">
+              </a>
+              <a href="#" class="horizontal-social-media__icons-link">
+                <img src="./assets/img/twitter-icon.svg" alt="twitter">
+              </a>
+            </div>     
+          </div>
+      </div>
+      <p class="fooler__cotyright">
+        Copuright <span class="copyright">&copy;</span> Night Trips 2019. All rights reserved
+      </p>
+      <div class="logo footer__logo">
+        <h2 class="logo__text">NT<span class="logo__text-dot">.</span></h2>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="./my.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

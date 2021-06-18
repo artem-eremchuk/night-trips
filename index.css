@@ -1,0 +1,86 @@
+@font-face { 
+  font-family: "Playfair Display";
+  src: 
+    url("./assets/fonts/PlayfairDisplay-Bold.eot") format("eot"), 
+    url("./assets/fonts/PlayfairDisplay-Bold.woff") format("woff"), 
+    url("./assets/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: "Larsseit";
+  src: 
+    url("./assets/fonts/Larsseit.eot") format("eot"), 
+    url("./assets/fonts/Larsseit.woff") format("woff"), 
+    url("./assets/fonts/Larsseit.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: "Larsseit";
+  src: 
+    url("./assets/fonts/Larsseit-Bold.eot") format("eot"), 
+    url("./assets/fonts/Larsseit-Bold.woff") format("woff"), 
+    url("./assets/fonts/Larsseit-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: "Noe Display";
+  src: 
+    url("./assets/fonts/Noe-Display-Bold.eot") format("eot"), 
+    url("./assets/fonts/Noe-Display-Bold.woff") format("woff"), 
+    url("./assets/fonts/Noe-Display-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1445px;
+}
+
+.background-block {
+  background: 
+    url("./assets/img/bg-lights.svg"),
+    url("./assets/img/image-bg.png");
+  background-color: #011627;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center 5%, center 95%;;
+}
+
+@media(max-width: 1600px){
+  .wrapper {
+    max-width: 1200px;
+  }
+}
+
+@media(max-width: 1280px){
+  .wrapper {
+    max-width: 1020px;
+  }
+}
+
+@media(max-width: 1080px){
+  .wrapper {
+    max-width: 768px;
+  }
+}
+
+
+@media(max-width: 768px){
+  .wrapper {
+    max-width: 600px;
+  }
+}
+
+@media(max-width: 650px){
+  .wrapper {
+    max-width: 375px;
+  }
+}
+

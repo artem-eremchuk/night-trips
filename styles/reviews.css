@@ -1,0 +1,238 @@
+.reviews {
+  width: 100%;
+}
+.reviews__wrapper {
+  max-width: 1865px ;
+  padding-bottom: 36px;
+  color: #FFFFFF;
+}
+.reviews__block {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 93px;
+  padding-bottom: 145px;
+  background-color: #011627;
+}
+.reviews__block::before, .reviews__block::after {
+  position: absolute;
+  content: "";
+  height: 80px;
+  width: 3px;
+  background-color: #09F4F4;
+  left: 50%;
+}
+.reviews__block::before{
+  top: -2%;
+}
+.reviews__block::after{
+  bottom: -2%;
+}
+.reviews__title {
+  font-family: Noe Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -1.2px;
+  margin-bottom: 40px;
+}
+.reviews__description {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 70px;
+}
+.reviews__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 62%;
+  margin: 0 auto;
+}
+.reviews__item {
+  position: relative;
+  width: 49%;
+  margin-bottom: 24px;
+  padding: 75px 74px 71px 102px;
+  background-color: #02223B;
+}
+.reviews__item::after{
+  position: absolute;
+  content: "";
+  height: 27px;
+  width: 32px;
+  top: 14%;
+  left: 10%;
+  background: url("../assets/img/quotes.svg");
+
+}
+.reviews__item-header {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 190%;
+}
+.reviews__item-text {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 190%;
+  padding-top: 10px;
+  letter-spacing: -0.2px;
+}
+.reviews__item-person {
+  display: flex;
+  align-items: center;
+  padding-top: 33px;
+}
+.reviews__item-person-id {
+  margin-left: 16px;
+}
+.reviews__item-person-id-name, .reviews__item-person-id-position {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+.reviews__title_block {
+  padding-top: 120px;
+  margin: 0;
+}
+.reviews__desctiption_block {
+  width: 25%;
+  margin: 0 auto;
+  padding-top: 38px;
+  text-transform: none;
+  letter-spacing: 1.5px;
+}
+
+@media(max-width: 1700px){
+  .reviews__title {
+    font-size: 55px;
+  }
+
+  .reviews__description {
+    font-size: 20px;
+  }
+
+  .reviews__item {
+    padding: 75px 50px 71px 60px;
+  }
+
+  .reviews__item::after {
+    left: 4%;
+  }
+}
+
+@media(max-width: 1600px){
+  .reviews__item {
+    padding: 50px 50px 50px 60px;
+  }
+}
+
+@media(max-width: 1440px){
+  .reviews__item-header, .reviews__item-text {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 1280px){
+  .reviews__item-person-id-name, .reviews__item-person-id-position {
+    font-size: 12px;
+  }
+}
+
+
+@media(max-width: 1080px){
+  .reviews__item-person-id-name, .reviews__item-person-id-position {
+    font-size: 10px;
+  }
+
+  .reviews__items {
+    width: 87%;
+  }
+}
+
+@media(max-width: 1080px){
+  .reviews__title {
+    font-size: 57px;
+    margin-bottom: 30px;
+  }
+
+  .reviews__item {
+    padding: 30px 30px 30px 40px;
+  }
+
+  .reviews__item::after {
+    top: 8%;
+    left: 1%;
+  }
+
+  .reviews__item-header, .reviews__item-text {
+    font-size: 14px;
+  }
+
+  .reviews__title_block {
+    padding-top: 80px;
+  }
+
+  .reviews__description {
+    font-size: 18px;
+  }
+
+  .reviews__block {
+    padding-bottom: 125px;
+  }
+
+  .reviews__desctiption_block {
+    width: 60%;
+    padding-top: 15px;
+  }
+}
+
+@media(max-width: 650px){
+  .reviews__wrapper {
+    max-width: 375px;
+  }
+
+  .reviews__title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .reviews__block::before {
+    top: -1.7%;
+  }
+
+  .reviews__description {
+    font-size: 12px;
+  }
+
+  .reviews__items {
+    flex-direction: column;
+  }
+
+  .reviews__item {
+    width: 100%;
+  }
+
+  .reviews__description {
+    font-size: 15px;
+  }
+}
+
+
+
+
